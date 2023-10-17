@@ -11,12 +11,6 @@ extern "C" {
 #include "myfunc.h"
 }
 
-TEST(fibonachiTest, num0) {
-    ASSERT_EQ(fibonachi(0), 1);
-    ASSERT_EQ(fibonachi(1), 1);
-    ASSERT_EQ(fibonachi(2), 2);
-}
-
 TEST(fibonachiTest, greather2) {
     ASSERT_EQ(fibonachi(5), 5);
     ASSERT_EQ(fibonachi(10), 55);

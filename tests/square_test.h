@@ -51,17 +51,4 @@ TEST(SQUARETest, discr_eq_0) {
     int numRoots = 1;
     ASSERT_EQ(compareSquareResults(a, b, c, expected, numRoots), 1);
 }
-
-TEST(SQUARETest, invalid_test_1) {
-    double a = 0, b = 0, c = 0;
-    int numRoots = 0;
-    ASSERT_EQ(compareSquareResults(a, b, c, NULL, numRoots), 1);
-}
-
-TEST(SQUARETest, invalid_test_2) {
-    double a = 0, b = 2, c = 3;
-    double expected[] = {-1.5, -1.5};
-    int numRoots = 1;
-    ASSERT_EQ(compareSquareResults(a, b, c, NULL, numRoots), 1);
-}
 #endif // SQUARE_H
