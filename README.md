@@ -1,9 +1,5 @@
 [![CI/CD GitHub Actions](https://github.com/Samvel228/test2/actions/workflows/test-action.yml/badge.svg)](https://github.com/Samvel228/test2/actions/workflows/test-action.yml)
 [![Coverage Status](https://coveralls.io/repos/Samvel228/test2/badge.svg?branch=main)](https://coveralls.io/github/Samvel228/test2?branch=main)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Samvel228_test2&metric=alert_status)](https://sonarcloud.io/dashboard?id=Samvel228_test2)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Samvel228_test2&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Samvel228_test2)
-[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=Samvel228_test2&metric=code_smells)](https://sonarcloud.io/dashboard?id=Samvel228_test2)
-
 # План тестирования
 
 ## Атестационное тестирование:  
