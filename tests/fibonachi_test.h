@@ -20,4 +20,8 @@ TEST(fibonachiTest, negative) {
     ASSERT_EQ(fibonachi(-1), 0);
 }
 
+TEST(fibonachiTest, average) {
+    ASSERT_EQ(fibonachi(1), 1);
+}
+
 #endif // FIBONACHI_H
