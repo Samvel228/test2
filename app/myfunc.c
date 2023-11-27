@@ -26,7 +26,6 @@ int fibonachi(int num) {
 
 int square(double a, double b, double c, double* roots) {
     double discriminant = b * b - 4 * a * c;
-    double* roots2 = malloc(2 * sizeof(double));
     
     if (discriminant >= 0) {
         roots[0] = (-b + sqrt(discriminant)) / (2 * a);
