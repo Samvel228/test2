@@ -6,7 +6,7 @@
 extern "C" {
 #include "myfunc.h"
 }
-
+//askldjaslkd
 TEST(SQUARETest, discr_greater_0) {
     double a = 1, b = -3, c = 2;
     double roots[2];
